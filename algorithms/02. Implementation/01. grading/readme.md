@@ -1,6 +1,8 @@
+# Grading Students
+
 Original page: [https://www.hackerrank.com/challenges/grading/problem](https://www.hackerrank.com/challenges/grading/problem)
 
-# Problem
+## Problem
 
 HackerLand University has the following grading policy:
 * Every student receives a *grade* in the inclusive range from 0 to 100.
@@ -13,20 +15,20 @@ For example, *grade = 84* will be rounded to 85 but *grade = 29* will not be rou
 
 Given the initial value of *grade* for each of Sam's *n* students, write code to automate the rounding process. Complete the function `solve` that takes an integer array of all grades, and return an integer array consisting of the rounded grades. For each *grade<sub>i</sub>*, round it according to the rules above and print the result on a new line.
 
-# Input Format
+## Input Format
 
 The first line contains a single integer denoting *n* (the number of students). 
 Each line *i* of the *n* subsequent lines contains a single integer, *grade<sub>i</sub>*, denoting student *i*'s grade.
 
-# Constraints
+## Constraints
 * 1 <= *n* <= 60
 * 0 <= *grade<sub>i</sub>* <= 100
 
-# Output Format
+## Output Format
 
 For each *grade<sub>i</sub>* of the *n* grades, print the rounded grade on a new line.
 
-## Sample Input 0
+### Sample Input 0
 ```
 4
 73
@@ -34,14 +36,14 @@ For each *grade<sub>i</sub>* of the *n* grades, print the rounded grade on a new
 38
 33
 ```
-## Sample Output 0
+### Sample Output 0
 ```
 75
 67
 40
 33
 ```
-## Explanation
+### Explanation
 1. Student 1 received a 73, and the next multiple of 5 from 73 is 75. Since 75-73 < 3, the student's grade is rounded to 75.
 2. Student 2 received a 67, and the next multiple of 5 from 67 is 70. Since 70-67 = 3, the grade will not be modified and the student's final grade is 67.
 3. Student 3 received a 38, and the next multiple of 5 from 38 is 40. Since 40-38 < 3, the student's grade will be rounded to 40.
