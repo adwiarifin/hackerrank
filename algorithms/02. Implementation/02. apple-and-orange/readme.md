@@ -61,11 +61,10 @@ Print two line integers of output with following criteria:
 ```
 
 ## Explanation 0
-
-The first apple falls at position 5 - 2 = 3.
-The second apple falls at position 5 + 2 = 7.
-The third apple falls at position 5 + 1 = 6.
-The first orange falls at position 15 + 5 = 20.
-The second orange falls at position 15 - 6 = 9.
-Only one fruit (the second apple) falls within the region between 7 and 11, so we print 1 as our first line of output. 
-Only the second orange falls within the region between 7 and 11, so we print 1 as our second line of output.
+The first apple falls at position 5 - 2 = 3.<br>
+The second apple falls at position 5 + 2 = 7.<br>
+The third apple falls at position 5 + 1 = 6.<br>
+The first orange falls at position 15 + 5 = 20.<br>
+The second orange falls at position 15 - 6 = 9.<br>
+Only one fruit (the second apple) falls within the region between 7 and 11, so we print 1 as our first line of output.<br>
+Only the second orange falls within the region between 7 and 11, so we print 1 as our second line of output.<br>
